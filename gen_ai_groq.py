@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("AzeemAI Content Generator", layout="wide")
 st.title("📢 AzeemAI – Content Generator")
-st.image("")
+st.image("WhatsApp%20Image%202026-01-20%20at%202.07.23%20AM.jpeg",use container_width=100)
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
