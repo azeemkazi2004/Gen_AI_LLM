@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("AzeemAI Content Generator", layout="wide")
 st.title("📢 AzeemAI – Content Generator")
-st.image("img.jpeg", use_container_width=)
+st.image("img.jpeg", width=40)
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
